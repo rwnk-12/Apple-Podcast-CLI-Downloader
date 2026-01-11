@@ -19,4 +19,4 @@ A CLI tool to download podcasts directly from Apple Podcast URLs.
 
 **Run with a URL:**
 ```bash
-python downloader.py "https://podcasts.apple.com/us/podcast/example-show/id123456789"
+python downloader.py "https://podcasts.apple.com/us/podcast/life-lessons-from-history/id1856559246"

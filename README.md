@@ -1,6 +1,6 @@
 # Apple Podcast Downloader
 
-A CLI tool to download podcasts directly from Apple Podcast URLs. 
+A CLI tool to download podcasts directly from Apple Podcast URLs. [MP3 128K]
 
 ## Installation
 

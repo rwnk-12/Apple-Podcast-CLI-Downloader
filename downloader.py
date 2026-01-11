@@ -43,7 +43,6 @@ def get_ids_from_url(url):
     return show_id, episode_id
 
 def get_episode_details(episode_id):
-    """Fetch specific episode details."""
     url = f"https://itunes.apple.com/lookup?id={episode_id}"
     try:
         r = requests.get(url, headers=HEADERS)
@@ -56,7 +55,6 @@ def get_episode_details(episode_id):
     return None, None, None
 
 def get_show_details(show_id):
-    """Fetch show details."""
     url = f"https://itunes.apple.com/lookup?id={show_id}"
     try:
         r = requests.get(url, headers=HEADERS)
@@ -68,7 +66,6 @@ def get_show_details(show_id):
     return None, None
 
 def scrape_apple_metadata(url):
-    """Get metadata from page without technical logs."""
     print("[-] Fetching show information...")
     meta = {
         'title': None, 'genres': [], 'description': '', 
@@ -272,7 +269,6 @@ def normalize_string(s):
     return re.sub(r'[\W_]+', '', s).lower()
 
 def fetch_rss_items(feed_url, apple_meta, podcast_id):
-    """Parses the RSS feed and returns a list of episode objects."""
     print("[-] Accessing episode list...")
     try:
         response = requests.get(feed_url, headers=HEADERS)

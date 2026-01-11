@@ -6,8 +6,8 @@ A CLI tool to download podcasts directly from Apple Podcast URLs.
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/apple-podcast-downloader.git
-    cd apple-podcast-downloader
+    git clone https://github.com/rwnk-12/Apple-Podcast-CLI-Downloader.git
+    cd Apple-Podcast-CLI-Downloader
     ```
 
 2.  Install dependencies:

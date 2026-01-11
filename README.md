@@ -1,6 +1,6 @@
 # Apple Podcast Downloader
 
-A CLI tool to download podcasts directly from Apple Podcast URLs. It supports high-quality metadata extraction, automatic ID3 tagging, and an interactive menu for selecting specific episodes.
+A CLI tool to download podcasts directly from Apple Podcast URLs. 
 
 ## Installation
 
